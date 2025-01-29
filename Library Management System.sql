@@ -8,10 +8,10 @@ CREATE TABLE Branch (
    Contact_No VARCHAR(15)
 );
 
-INSERT INTO Branch VALUES (101, 201, '123 Main St, New York, NY', '2125550101');
-INSERT INTO Branch VALUES (102, 202, '456 Elm St, Los Angeles, CA', '3105550202');
-INSERT INTO Branch VALUES (103, 203, '789 Pine Ave, Chicago, IL', '3125550303');
-INSERT INTO Branch VALUES (104, 204, '321 Maple Dr, Houston, TX', '7135550404');
+INSERT INTO Branch VALUES (101, 101, '123 Main St, New York, NY', '2125550101');
+INSERT INTO Branch VALUES (102, 106, '456 Elm St, Los Angeles, CA', '3105550202');
+INSERT INTO Branch VALUES (103, 112, '789 Pine Ave, Chicago, IL', '3125550303');
+INSERT INTO Branch VALUES (104, 105, '321 Maple Dr, Houston, TX', '7135550404');
 
 SELECT * FROM Branch;
 
